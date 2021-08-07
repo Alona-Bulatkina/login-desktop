@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/components/_general.scss",
+        "../sass/components/_header.scss",
+        "../sass/components/_form.scss",
+        "../sass/components/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
