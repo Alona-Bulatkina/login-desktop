@@ -37,7 +37,7 @@ line-height: 18px;
 color: #111111;
 
 display: flex;
-    align-items: center;
+align-items: center;
 }
 
 .contakts__link {
@@ -58,6 +58,11 @@ align-items: center;
     &:last-child {
         margin-right: 0;
     }
+    position: relative;
+}
+
+.head__item:hover .submenu {
+display: block;
 }
 
 .button {
@@ -121,4 +126,145 @@ border: transparent;
     stroke-width: 1px;
 
     margin-right: 8px;
+}
+.submenu {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 270px;
+    height: 200px;
+
+    background: #FFFFFF;
+border-radius: 8px;
+border: 1px solid #18A0FB;
+
+display: none;
+
+padding-top: 31px;
+padding-right: 95px;
+padding-bottom: 37px;
+padding-left: 35px;
+
+a {
+text-decoration: none;
+}
+}
+.submenu__list {
+    margin-bottom: 15px;
+
+    &:last-child {
+        margin-bottom: 0; 
+    }
+}
+    
+.submenu__link {
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 120%;
+
+color: #111111;
+
+&:hover, &:focus {
+    width: 270px;
+    height: 40px;
+    
+    background: linear-gradient(281.27deg, #2382E0 0%, #18A0FB 100%);
+}
+}
+.contakts__item {
+    position: relative;
+}
+.submenu__telephone {
+    position: absolute;
+background: #FFFFFF;
+border-radius: 10px 8px 8px 8px;
+border: 1px solid #18A0FB;
+display: none;
+
+top: 100%;
+left: 0;
+width: 270px;
+height: 345px;
+
+padding-top: 31px;
+padding-right: 38px;
+padding-bottom: 32px;
+padding-left: 35px;
+
+    a {
+        text-decoration: none;
+    }
+}
+.contakts__item:hover .submenu__telephone {
+    display: block;
+}
+.submenu__telephone-list {
+margin-bottom: 5px;
+
+}
+.submenu__telephone-link {
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #111111;
+}
+.submenu__email-list {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.submenu__email-link {
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #18A0FB;
+}
+.submenu__address-heading {
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #111111;
+
+margin-bottom: 5px;
+}
+.submenu__schedule-heading {
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #111111;
+
+margin-bottom: 5px;
+}
+.submenu__address {
+    font-family: Inter;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 140%;
+
+color: #555555;
+
+margin-bottom: 15px;
+}
+.submenu__schedule-text {
+    font-family: Inter;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 140%;
+
+color: #555555;
+padding-right: 60px;
 }
