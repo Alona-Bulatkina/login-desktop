@@ -1,0 +1,118 @@
+.footer {
+    background: #F5F5F5;
+    padding-top: 70px;
+    padding-right: 272px;
+    padding-bottom: 50px;
+    padding-left: 255px;
+}
+
+.footer__blok-contakts {
+    margin-right: 47px;
+}
+.footer__contakts {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #111111;
+}
+.footer__box {
+    display: flex;
+    align-items: baseline;
+}
+   
+.footer__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: #111111;
+
+    margin-top: 0;
+}
+
+.footer__blok-item {
+    margin-right: 13px;
+}
+.footer__link-item {
+    margin-right: 13px;
+    margin-bottom: 15px;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+    p {
+        font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #555555;
+    }
+}
+
+.footer__blok-link {
+    margin-right: 174px;
+}
+.footer__link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #555555;
+}
+.footer__social {
+    display: flex;
+  padding: 0;
+  margin: 0;
+  }
+  .footer__social-link {
+    display: flex;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50% 50%;
+    background: linear-gradient(281.27deg, #2382E0 0%, #18A0FB 100%);
+  
+    justify-content: center;
+    align-items: center;
+
+    fill: #FFFFFF;
+  }
+  .footer__social-item {
+      margin-right: 20px;
+      &:last-child {
+          margin-right: 0;
+      }
+  }
+  .copyright {
+    background: #FFFFFF;
+    padding-top: 14px;
+    padding-right: 255px;
+    padding-bottom: 16px;
+    padding-left: 255px;
+  }
+  .copyright__list {
+      display: flex;
+      justify-content: space-between;
+  }
+  .copyright__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+       
+    color: #888888;
+  }
+  .copyright__link {
+      color: #18A0FB;
+  }
