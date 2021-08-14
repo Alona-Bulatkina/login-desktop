@@ -48,7 +48,6 @@ a {
 }
 
 .head__link {
-  font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -56,10 +55,10 @@ a {
   color: #111111;
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .contakts__link {
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 19px;
@@ -88,7 +87,6 @@ a {
 }
 
 .button__enter {
-  font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -104,7 +102,6 @@ a {
 }
 
 .button__registration {
-  font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -168,7 +165,6 @@ a {
 }
 
 .submenu__link {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -186,6 +182,28 @@ a {
   position: relative;
 }
 
+.active > div {
+  width: 150px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.active::before {
+  display: block;
+  content: "";
+  font-size: 0px;
+  line-height: 0%;
+  width: 0px;
+  border-bottom: 10px solid #18A0FB;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+  top: -9px;
+  left: 3px;
+  position: absolute;
+}
+
 .submenu__telephone {
   position: absolute;
   background: #FFFFFF;
@@ -200,6 +218,7 @@ a {
   padding-right: 38px;
   padding-bottom: 32px;
   padding-left: 35px;
+  margin-top: 20px;
 }
 
 .submenu__telephone a {
@@ -215,7 +234,6 @@ a {
 }
 
 .submenu__telephone-link {
-  font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -229,7 +247,6 @@ a {
 }
 
 .submenu__email-link {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -238,7 +255,6 @@ a {
 }
 
 .submenu__address-heading {
-  font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -248,7 +264,6 @@ a {
 }
 
 .submenu__schedule-heading {
-  font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -258,7 +273,6 @@ a {
 }
 
 .submenu__address {
-  font-family: Inter;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -268,7 +282,6 @@ a {
 }
 
 .submenu__schedule-text {
-  font-family: Inter;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -403,17 +416,19 @@ label {
 .footer {
   background: #F5F5F5;
   padding-top: 70px;
-  padding-right: 272px;
   padding-bottom: 50px;
   padding-left: 255px;
+  padding-right: 272px;
+  width: 100%;
+  display: flex;
 }
 
 .footer__blok-contakts {
   margin-right: 47px;
+  float: left;
 }
 
 .footer__contakts {
-  font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -427,7 +442,6 @@ label {
 }
 
 .footer__text {
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -439,6 +453,7 @@ label {
 
 .footer__blok-item {
   margin-right: 13px;
+  float: left;
 }
 
 .footer__link-item {
@@ -451,7 +466,6 @@ label {
 }
 
 .footer__link-item p {
-  font-family: Inter;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -461,10 +475,10 @@ label {
 
 .footer__blok-link {
   margin-right: 174px;
+  float: left;
 }
 
 .footer__link {
-  font-family: Inter;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -492,6 +506,7 @@ label {
 
 .footer__social-item {
   margin-right: 20px;
+  float: left;
 }
 
 .footer__social-item:last-child {
@@ -512,7 +527,6 @@ label {
 }
 
 .copyright__text {
-  font-family: Inter;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
